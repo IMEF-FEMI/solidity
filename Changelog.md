@@ -4,6 +4,7 @@ Language Features:
 
 
 Compiler Features:
+ * Yul EVM Code Transform: Generate more optimal code for user-defined functions that always terminate a transaction. No return labels will be pushed for calls to functions that always terminate.
 
 
 Bugfixes:
