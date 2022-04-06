@@ -5,6 +5,7 @@ Language Features:
 
 Compiler Features:
  * TypeChecker: Support using library constants in initializers of other constants.
+ * Yul Optimizer: Simplify the starting offset of zero-length operations to zero.
 
 Bugfixes:
  * Commandline Interface: Disallow the following options outside of the compiler mode: ``--via-ir``,``--metadata-literal``, ``--metadata-hash``, ``--model-checker-show-unproved``, ``--model-checker-div-mod-no-slacks``, ``--model-checker-engine``, ``--model-checker-invariants``, ``--model-checker-solvers``, ``--model-checker-timeout``, ``--model-checker-contracts``, ``--model-checker-targets``.
